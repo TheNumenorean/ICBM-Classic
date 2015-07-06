@@ -13,3 +13,4 @@ eclipse/
 *.iws
 *.ipr
 *.idea/
+src/main/resources/Thumbs.db
