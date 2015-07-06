@@ -67,7 +67,8 @@ public class GuiMissileCoordinator extends GuiICBMContainer
     @Override
     protected void drawGuiContainerBackgroundLayer(float f, int x, int y)
     {
-        super.drawGuiContainerBackgroundLayer(f, x, y);
+    	//TODO: Figure out why this is here
+        //super.drawGuiContainerBackgroundLayer(f, x, y);
         this.drawSlot(15, 40);
         this.drawSlot(135, 40);
 

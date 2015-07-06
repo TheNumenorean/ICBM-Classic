@@ -21,7 +21,8 @@ public class RenderTurret extends RenderTaggedTile
     @Override
     public void renderTileEntityAt(TileEntity tile, double x, double y, double z, float f)
     {
-        super.renderTileEntityAt(tile, x, y, z, f);
+    	//TODO: Figure out why this is here
+        //super.renderTileEntityAt(tile, x, y, z, f);
 
         if (tile instanceof TileTurret)
         {

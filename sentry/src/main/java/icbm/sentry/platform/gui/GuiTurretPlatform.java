@@ -65,7 +65,8 @@ public class GuiTurretPlatform extends GuiContainerBase
     @Override
     protected void drawGuiContainerBackgroundLayer(float par1, int x, int y)
     {
-        super.drawGuiContainerBackgroundLayer(par1, x, y);
+    	//TODO: Figure out why this is here
+        //super.drawGuiContainerBackgroundLayer(par1, x, y);
 
         this.mc.renderEngine.bindTexture(TERMINAL_TEXTURE);
         GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);

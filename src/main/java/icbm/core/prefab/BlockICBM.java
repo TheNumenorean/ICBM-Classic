@@ -8,6 +8,7 @@ import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.Icon;
 import net.minecraft.world.IBlockAccess;
+import net.minecraft.world.World;
 import net.minecraftforge.common.ForgeDirection;
 import resonant.api.IRedstoneProvider;
 import resonant.lib.prefab.block.BlockTile;
@@ -93,4 +94,10 @@ public class BlockICBM extends BlockTile
 
         return 0;
     }
+
+	@Override
+	public TileEntity createNewTileEntity(World world) {
+		
+		return null;
+	}
 }

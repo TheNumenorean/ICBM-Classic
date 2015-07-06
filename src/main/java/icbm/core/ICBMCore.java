@@ -14,7 +14,6 @@ import icbm.core.blocks.BlockSpikes;
 import icbm.core.blocks.BlockSulfurOre;
 import icbm.core.blocks.OreGeneratorICBM;
 import icbm.core.blocks.TileProximityDetector;
-import icbm.core.compat.Waila;
 import icbm.core.entity.EntityFlyingBlock;
 import icbm.core.entity.EntityFragments;
 import icbm.core.items.ItemAntidote;
@@ -116,8 +115,9 @@ public final class ICBMCore
         MinecraftForge.EVENT_BUS.register(INSTANCE);
 
         // MODULES TO LOAD INTO MOD PHASE
-        modproxies.applyModule(Waila.class, true);
-
+        //modproxies.applyModule(Waila.class, true);
+        //TODO: readd
+        
         LOGGER.fine("Loaded " + LanguageUtility.loadLanguages(icbm.Reference.LANGUAGE_PATH, icbm.Reference.LANGUAGES) + " languages.");
 
         Settings.CONFIGURATION.load();
